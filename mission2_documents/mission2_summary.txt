@@ -8,15 +8,15 @@ INVESTIGATION TARGET:
 • Suspicious Amount: 2,340,975 Gold Pieces
 
 TECHNIQUES USED:
-• Markovify: Generated domain-specific investigation narratives
+• Ollama: Generated coherent, domain-specific investigation narratives
 • ReportLab: Formatted professional PDF documents
 • Fantasy Theming: Adapted to magical kingdom setting
 • Data Integration: Aligned with Mission 1 transaction patterns
 
 GENERATED DOCUMENTS:
 1. whistleblower_report_RG126225.pdf
-2. bank_statement_202664.pdf
-3. SAR_185965.pdf
+2. bank_statement_571029.pdf
+3. SAR_816751.pdf
 
 MONEY LAUNDERING PATTERNS:
 • Structured deposits under 10,000 gold pieces
