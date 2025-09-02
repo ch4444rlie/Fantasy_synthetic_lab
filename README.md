@@ -1,5 +1,5 @@
 ## Purpose
-This lab demonstrates the role synthetic data plays in AML investigations, ensuring privacy and realism without real-world data. You’ll generate transactions, summon documents, analyze networks, and query findings in a magical setting.
+This lab [(Lab_AML.ipynb)](https://github.com/ch4444rlie/Fantasy_synthetic_lab/blob/main/Lab_AML.ipynb) demonstrates the role synthetic data plays in AML investigations, ensuring privacy and realism without real-world data. You’ll generate transactions, summon documents, analyze networks, and query findings in a magical setting.
 
 ## Key Components
 - **Synthetic Data Generation**:
@@ -32,6 +32,7 @@ Mission 1: Generate synthetic transactions with realistic AML patterns.<br>
 Mission 2: Generate PDFs (FantasyDocumentForge) in mission2_documents/.<br>
 Mission 3: Train a Graph autoencoder (Prophecy Familiar) to detect money laundering patterns in Kingdom 1 City 5.<br>
 Mission 4: Query transactions and documents with a RAG Chatbot.
+
 
 
 
