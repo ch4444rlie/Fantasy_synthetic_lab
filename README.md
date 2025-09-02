@@ -1,5 +1,5 @@
 ## Purpose
-This lab demonstrates synthetic data generation and usage in AML investigations, ensuring privacy and realism without real-world data. You’ll generate transactions, summon documents, analyze networks, and query findings in a magical setting.
+This lab demonstrates the role synthetic data plays in AML investigations, ensuring privacy and realism without real-world data. You’ll generate transactions, summon documents, analyze networks, and query findings in a magical setting.
 
 ## Key Components
 - **Synthetic Data Generation**:
@@ -28,8 +28,10 @@ ollama run mistral:7b-instruct-v0.3-q4_0
 ## Usage
 Run missions sequentially in a Jupyter notebook:
 
-Mission 1: Generate synthetic transactions with realistic AML patterns.
-Mission 2: Generate PDFs (FantasyDocumentForge) in mission2_documents/.
-Mission 3: Train a Graph autoencoder (Prophecy Familiar) to detect money laundering patterns in Kingdom 1 City 5.
+Mission 1: Generate synthetic transactions with realistic AML patterns.<br>
+Mission 2: Generate PDFs (FantasyDocumentForge) in mission2_documents/.<br>
+Mission 3: Train a Graph autoencoder (Prophecy Familiar) to detect money laundering patterns in Kingdom 1 City 5.<br>
 Mission 4: Query transactions and documents with a RAG Chatbot.
+
+
 
