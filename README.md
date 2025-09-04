@@ -8,12 +8,34 @@ This lab [(Lab_AML.ipynb)](https://github.com/ch4444rlie/Fantasy_synthetic_lab/b
   - **Graph Network**: Constructs transaction graphs to model account relationships and flows.
   - **TVAE**: Employs variational autoencoders to generate diverse, high-fidelity transaction features.
 - **Document Creation**:
-  - **Markovify**: Generates unique, domain-specific text for whistleblower reports and SARs.
+  - **Ollama**: Generates coherent, role-specific narratives for whistleblower reports (insider perspective) and SARs (external auditor perspective) using `mistral:7b-instruct-v0.3-q4_0`.
 - **Tools**:
   - **Mission 1**: Creates synthetic transactions (`mission1_synthetic_data.csv`) using the above methods.
-  - **Mission 2**: Summons PDFs (whistleblower reports, bank statements, SARs) with `reportlab>=4.2.2` and `markovify>=0.9.4`.
+  - **Mission 2**: Summons PDFs (whistleblower reports, bank statements, SARs) with `reportlab>=4.2.2` and `ollama>=0.5.3`.
   - **Mission 3**: Trains a Prophecy Familiar (`AMLDetectionSystem`) with `torch>=2.8.0` and `torch-geometric>=2.6.1` to detect K1C5 patterns.
   - **Mission 4**: Deploys `FantasyRAGChatbot` with `rank-bm25>=0.2.2`, `sentence-transformers==3.2.0`, `faiss-cpu==1.9.0`, and `ollama>=0.5.3` to query evidence.
+
+## Setup
+1. **Install Dependencies**:
+   ```bash
+   pip install pandas==2.2.3 numpy>=1.26.4 torch>=2.8.0 torch-geometric>=2.6.1 networkx>=3.4.2 reportlab>=4.2.2 pdfplumber>=0.11.7 rank-bm25>=0.2.2 sentence-transformers==3.2.0 faiss-cpu==1.9.0 ollama>=0.5.3
+
+
+Install Ollama:ollama pull mistral:7b-instruct-v0.3-q4_0
+ollama serve
+
+
+Ensure synthetic data (mission1_synthetic_data.csv) is generated in the same directory as the notebook.
+
+Usage<br>
+Run missions sequentially in a Jupyter notebook:
+
+Mission 1: Generate synthetic transactions with realistic AML patterns.
+Mission 2: Generate PDFs (FantasyDocumentForge) in mission2_documents/.
+Mission 3: Train a Graph Autoencoder (Prophecy Familiar) to detect money laundering patterns in Kingdom 1 City 5.
+Mission 4: Query transactions and documents with a RAG Chatbot.
+
+
 
  ## Setup
 1. **Install Dependencies**:
@@ -32,6 +54,8 @@ Mission 1: Generate synthetic transactions with realistic AML patterns.<br>
 Mission 2: Generate PDFs (FantasyDocumentForge) in mission2_documents/.<br>
 Mission 3: Train a Graph autoencoder (Prophecy Familiar) to detect money laundering patterns in Kingdom 1 City 5.<br>
 Mission 4: Query transactions and documents with a RAG Chatbot.
+
+
 
 
 
