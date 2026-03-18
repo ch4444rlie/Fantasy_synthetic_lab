@@ -60,6 +60,11 @@ Mission 2: Generate PDFs (FantasyDocumentForge) in mission2_documents/.<br>
 Mission 3: Train a Graph autoencoder (Prophecy Familiar) to detect money laundering patterns in Kingdom 1 City 5.<br>
 Mission 4: Query transactions and documents with a RAG Chatbot.
 
+### Notebook Navigation Upgrade
+Use `Lab_AML_modular.ipynb` for a cleaner mission-by-mission workflow.
+It keeps the original mission behavior but replaces monolithic notebook cells with thin runner calls.
+For demos and storytelling, use `Lab_aml_presentation.ipynb` (narrative-first notebook with modular mission execution).
+
 
 
 

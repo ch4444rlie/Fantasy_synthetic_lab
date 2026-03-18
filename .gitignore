@@ -8,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Generated lab artifacts (regenerate via notebook runs)
+mission1_synthetic_data.csv
+mission2_documents/*
+!mission2_documents/.gitkeep
+mission1_network.png
+mission1_timeseries.png
+tmp_notebook_cells/
