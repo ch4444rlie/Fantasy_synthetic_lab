@@ -61,9 +61,10 @@ Mission 3: Train a Graph autoencoder (Prophecy Familiar) to detect money launder
 Mission 4: Query transactions and documents with a RAG Chatbot.
 
 ### Notebook Navigation Upgrade
-Use `Lab_AML_modular.ipynb` for a cleaner mission-by-mission workflow.
-It keeps the original mission behavior but replaces monolithic notebook cells with thin runner calls.
-For demos and storytelling, use `Lab_aml_presentation.ipynb` (narrative-first notebook with modular mission execution).
+Use `Lab_AML.ipynb` as the main guided lab notebook (full explanations with short mission runner cells).
+Use `Lab_AML_original.ipynb` for the legacy monolithic implementation.
+Use `Lab_AML_modular.ipynb` for a minimal mission-by-mission execution workflow.
+Use `Lab_aml_presentation.ipynb` for presentation-friendly storytelling with modular execution.
 
 
 
